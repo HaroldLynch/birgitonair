@@ -116,10 +116,11 @@ header.intro-section {
 		}
 
 		#vorwort p {
+			font-size: 20px;
+			line-height: 30px;
 			color: darkgrey;
 			padding: 0px 0px 40px 0px;
-			text-align: justify;
-	
+			
 	
 		}
 
