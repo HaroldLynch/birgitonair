@@ -53,7 +53,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
 				layout: {
 					padding: {
 						left: 0,
-						right: 200,
+						right: 150,
 						bottom: 60,
 						top: 10,
 					}
@@ -66,7 +66,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
 					xAxes: [{
 						ticks: {
 							min: 0,
-							max: 50,
+							max: 100,
 							callback: function (value) {
 								return value + "%"
 							}
@@ -145,7 +145,7 @@ let myChart = document.getElementById('myChart').getContext('2d');
 
 				title: {
 					display: true,
-					text: 'Schwefeldioxid-Emissionen der Energiewirtschaft in Deutschland',
+					text: 'Schwefeldioxid-Emissionen der Energiewirtschaft (DEU)',
 					padding: 30,
 					fontSize: 25,
 				},
@@ -160,9 +160,9 @@ let myChart = document.getElementById('myChart').getContext('2d');
 				layout: {
 					padding: {
 						left: 0,
-						right: 200,
+						right: 100,
 						bottom: 40,
-						top: 10,
+						top: 0,
 					}
 				},
 				tooltips: {
